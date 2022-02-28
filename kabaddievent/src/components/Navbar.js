@@ -1,6 +1,8 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./navbar.css"
+
 function Navbar() {
+    
     function clickHandle(){
         console.log("Logout clicked");
     }
@@ -8,15 +10,16 @@ function Navbar() {
       <>
       <nav className="main-nav">
           <div className="appname">
-              <h3>Kabaddi event</h3>
+              <span>K</span>abaddi
+              <span>E</span> vent
           </div>
           <div className="nav-link">
               <ul>
                   <li>
-                      <a href="#">Book Event </a>
+                      <a href="#">BookEvent </a>
                   </li>
                   <li>
-                      <a href="#">View Booked event</a>
+                      <a href="#">BookedEvent</a>
                   </li>
               </ul>
           </div>
@@ -24,7 +27,7 @@ function Navbar() {
                 <button className="logout-btn" onClick={clickHandle}>Logout</button>
           </div>
       </nav>
-      <nav className="split-frame"></nav>
+      
       </>
   )
 };
