@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+html{
+    font-size:100%;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+.main-nav{
+
+    background-color: #000066;
+    height: 100px;
+    display:grid;
+    grid-template-columns:20px 1fr 2fr 1fr 30px;
+}
+.titles{
+    color:white;
+}
+.appname{
+    display:flex;
+    grid-column: 2/3;
+    justify-content:start;
+    align-items:center;
+}
+.nav-link{
+    grid-column:3/4;
+}
+.nav-link ul{
+
+    height:10px;
+    display:flex;
+    padding-top: 50px;
+    justify-content:space-around;
+    align-items:center;
+}
+a{
+    color:white;
+}
+.logout{
+    grid-column:4/5;
+    display:flex;
+    color:white;
+    justify-content:right;
+    align-items:center;
+}
+.logout-btn{
+    background-color: #000066;
+    border:none;
+}
+.split-frame{
+    display:grid;
+    background-color:#D8D8D8;
+    height:40px;
+}
+body{
+    text-align: center;
+    background-color: #9999ff;
+}
+.searchbar{
+    display:inline-block;
+    text-align: left;
+    color:black;
+    border:none;
+    height:30px;
+    width:300px;
+}
+.btn{
+    color:white;
+    background-color:#0066ff;
+    display:inline-block;
+    border: #0066ff;
+    border-style: none;
+    margin-left: 20px;
+    text-align: center;
+    height:30px;
+    width: 80px;
+}
+
+.card-title{
+    color:black;
+}
+
+.card-text{
+    color:black;
+    text-align: left;
+}
